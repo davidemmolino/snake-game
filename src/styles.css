@@ -1,0 +1,43 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  background-color: beige;
+}
+
+#head {
+  background: black;
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  position: absolute;
+  border-radius: 50%;
+  /* background-image: url('https://imgur.com/a/oXmQBuP'); */
+}
+
+#body {
+  background: black;
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  position: absolute;
+  /* background-image: url(https://imgur.com/a/ZzSp3QV) */
+}
+
+#board {
+  height: 700px;
+  width: 700px;
+  border: 1px black solid;
+  position: relative;
+  margin: 15px auto;
+  background-color: antiquewhite;
+}
+
+#apple {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+}
+
+#game-over {
+  content: url("http://imgur.com/SZ8Cm.jpg")
+}
